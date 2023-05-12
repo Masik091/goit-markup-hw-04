@@ -154,14 +154,10 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1440px;
 }
 .sections {
   padding: 120px 0;
-}
-
-.section-one :hover,
-.section-one :focus {
-  background-color: var(--sections-color);
 }
 
 .title-one {
@@ -210,6 +206,16 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.icons-section-two {
+  display: flex;
+  align-items: center
+   justify-content: center;
+   height: 112px;
+   background-color: #f4f4fd; 
+   border-radius: 4px;
+   margin-bottom: 8px;
+
 }
 
 /* Section-3 */
