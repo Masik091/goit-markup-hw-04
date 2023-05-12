@@ -11,6 +11,7 @@
   --title-portfolio-color: #2e2f42;
   --prg-color: #434455;
   --buttons-portfolio: #e7e9fc;
+--accent-color: #4d5ae5; 
 }
 
 body {
@@ -141,8 +142,15 @@ img {
 
 /* Section-1 */
 .section-one {
-  background-color: var(--sections-color);
+   
   padding: 188px 0;
+  background-color: #2E2F42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(/images/hero\ image.jpg);
+    url(/images/hero\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 .sections {
   padding: 120px 0;
@@ -227,7 +235,7 @@ img {
 /* Section-4 */
 .section-four-background-color {
   background-color: var(--section-four-back-ground-color);
-  padding: 120px 0;
+  padding: 120px 120px;
 }
 .container-four {
   width: 1158px;
@@ -292,13 +300,64 @@ button {
   cursor: pointer;
 }
 
+
+
+/* Section-5 */
+.customers-list{}
+.customers-list-item{
+  width: calc((100%-120px)/6);
+  height: 88px;
+  filter: drop-shadow();
+  
+}
+.customer-link{
+  box-sizing: border-box;
+  border: 1px solid #8E8F99;
+border-radius: 4px;
+width: 168px;
+height: 88px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
 /* Footer */
 
 .footer {
+  display: flex;
+
+  column-gap: 120px;
+  align-items: baseline;
   background-color: #2e2f42;
   padding: 100px 0;
+  gap: 120px;
 }
 
+.container-social-list {
+  
+}
+.social-media-title {
+  color: #ffffff;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+.social-list-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {fill: var(--accent-color);}
+  
 .text-item {
   font-size: 16px;
   line-height: 1.5;
@@ -306,8 +365,9 @@ button {
   color: var(--first-paragraf-color);
   padding: 0;
   text-align: center;
+  margin-bottom: 8px;
 }
-.footer-color {
+.footer-color { 
   color: #f4f4fd;
 }
 .footer-paragraph {
