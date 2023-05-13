@@ -325,6 +325,7 @@ button {
   justify-content: center;
   color: var(--color-title-customers);
   margin-bottom: 72px;
+  text-align: center;
 }
 .customers-list {
   display: flex;
