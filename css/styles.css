@@ -215,9 +215,9 @@ img {
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
   margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: #f4f4fd;
 }
 
 /* Section-3 */
@@ -322,6 +322,7 @@ button {
 .title-customers {
   font-size: 36px;
   line-height: 1.1;
+  justify-content: center;
   color: var(--color-title-customers);
   margin-bottom: 72px;
 }
