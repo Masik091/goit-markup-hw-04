@@ -33,6 +33,8 @@ body {
   width: 1158px;
   margin: auto;
   padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .menu {
@@ -100,6 +102,7 @@ img {
 
 .list {
   list-style: none;
+  display: flex;
 }
 
 /* Address */
@@ -201,8 +204,6 @@ img {
 }
 .section-two-list {
   display: flex;
-  justify-content: center;
-  padding: 0;
   gap: 24px;
 }
 .section-two-item {
@@ -256,9 +257,10 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 141px;
-  padding-right: 141px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 120px;
+  width: 1158px;
 }
 .social-list-link {
   display: flex;
@@ -282,12 +284,18 @@ img {
   color: var(--sections-color);
   margin-bottom: 72px;
 }
+.section-four-list {
+  gap: 24px;
+}
 .company-employees {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  width: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: #ffffff;
+}
+.company-employees {
+  width: calc((100% - 72px) / 4);
 }
 
 .title-employees {
@@ -298,9 +306,15 @@ img {
   color: var(--sections-color);
   text-align: center;
   margin-bottom: 8px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
 }
 .employees-list {
   padding: 32px 0;
+  gap: 24px;
 }
 
 /* Button */
@@ -379,16 +393,19 @@ button {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  margin: auto;
 }
+
 container-footer {
-   display: flex;
+  display: flex;
   align-items: baseline;
-}
 }
 
 .container-social-list {
 }
 .social-media-title {
+  display: block;
+  box-sizing: border-box;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -401,22 +418,17 @@ container-footer {
   gap: 16px;
 }
 .social-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: #4d5ae5;
 }
 .social-list-link-ft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: var(--footer-link);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .social-list-link-ft:hover,
 .social-list-link-ft:focus {
@@ -434,11 +446,16 @@ container-footer {
   padding: 0;
   text-align: center;
   margin-bottom: 8px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 .footer-color {
   color: #f4f4fd;
 }
 .logotype {
+  display: block;
+  box-sizing: border-box;
   margin-right: 120px;
 }
 .footer-paragraph {
