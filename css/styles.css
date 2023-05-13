@@ -167,6 +167,7 @@ img {
 }
 .sections {
   padding: 120px 0;
+  display: block;
 }
 
 .title-one {
