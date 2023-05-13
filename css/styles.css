@@ -417,7 +417,7 @@ button {
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .social-item {
   width: 40px;
