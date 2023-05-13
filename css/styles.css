@@ -414,7 +414,14 @@ button {
   color: var(--footer-color-var);
   margin-bottom: 16px;
 }
-.social-list {
+
+.social-list-section-four {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-list-footer {
   display: flex;
   justify-content: center;
   gap: 16px;
