@@ -331,9 +331,8 @@ button {
   gap: 24px;
 }
 .customers-list-item {
-  width: calc((100%-120px) / 6);
   height: 88px;
-  filter: drop-shadow();
+  width: calc((100% - 120px) / 6);
 }
 
 .customer-link {
