@@ -413,7 +413,8 @@ container-footer {
 }
 .social-list {
   display: flex;
-  gap: 16px;
+  justify-content: center;
+  gap: 24px;
 }
 .social-item {
   width: 40px;
